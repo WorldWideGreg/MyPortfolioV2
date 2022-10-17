@@ -98,7 +98,7 @@ export const projectsData = [
         {
           id: uuidv4(),
           details:
-            "Automate Python de récupération de mails spéciaux, parsing du Pdf trouvé en pièce-jointe et renvoi d'un mail précis aux destinataires en fonction des données du Pdf. Intéret: Permettre aux gens n'étant pas au bureau de connaitre leurs missions du lendemain sans avoir à appeler/passer au bureau.",
+            "Automate Python de récupération de mails spéciaux, parsing du Pdf trouvé en pièce-jointe et renvoi d'un mail précis aux destinataires en fonction des données du Pdf. Intérêt: Permettre aux gens n'étant pas au bureau de connaitre leurs missions du lendemain sans avoir à appeler/passer au bureau.",
         },
         {
           id: uuidv4(),
@@ -118,7 +118,7 @@ export const projectsData = [
         {
           id: uuidv4(),
           details:
-            "Script de transcription de paroles via l'utilisation de l'API AssemblyAI. Interêt: Transcrire des fichiers audio, ou des vidéos en fichiers textes.",
+            "Script de transcription de paroles via l'utilisation de l'API AssemblyAI. Intérêt: Transcrire des fichiers audio, ou des vidéos en fichiers textes.",
         },
       ],
     },
@@ -210,7 +210,7 @@ export const projectsData = [
         {
           id: uuidv4(),
           details:
-            "Il s'agit là, plus d'un challenge personnel, me permettant uniquement de tenter de découvrir et comprendre les problématiques coté server. Le tout en me permettant de stocker mes données personnelles et de les rendre accessibles à distance.",
+            "Il s'agit là d'un challenge personnel, me permettant uniquement de découvrir et comprendre les problématiques côté server. Le tout en me permettant de stocker mes données personnelles et de les rendre accessibles à distance.",
         },
       ],
       SocialSharingHeading: "",
