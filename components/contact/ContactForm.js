@@ -10,7 +10,6 @@ const selectOptions = [
 
 function ContactForm() {
   const [showModal, setShowModal] = useState(false);
-
   function ShowFormModal() {
     if (!showModal) {
       document
@@ -24,7 +23,7 @@ function ContactForm() {
       setShowModal(false);
       document.getElementById("form").reset();
     }
-  }
+  }   
   return (
     <>
       <div className="w-full lg:w-1/2">
