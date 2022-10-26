@@ -8,14 +8,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
     "@tailwindcss/forms": "^0.4.0",
+    "axios": "^1.1.2",
+    "dotenv": "^16.0.3",
+    "emailjs": "^4.0.1",
+    "env-cmd": "^10.1.0",
     "framer-motion": "^5.5.3",
     "next": "^12.3.1",
+    "nodemailer": "^6.8.0",
     "react": "17.0.2",
     "react-countup": "^6.1.1",
     "react-dom": "17.0.2",
     "react-icons": "^4.3.1",
-    "uuid": "^8.3.2"
+    "serverless-mysql": "^1.5.4",
+    "uuid": "^8.3.2",
+    "vercel": "^28.4.11"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
@@ -23,5 +31,22 @@
     "eslint-config-next": "12.0.7",
     "postcss": "^8.4.5",
     "tailwindcss": "^3.0.5"
-  }
+  },
+  "version": "1.0.0",
+  "main": "next.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WorldWideGreg/nextjs-tailwindcss-portfolio-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WorldWideGreg/nextjs-tailwindcss-portfolio-1/issues"
+  },
+  "homepage": "https://github.com/WorldWideGreg/nextjs-tailwindcss-portfolio-1#readme",
+  "description": ""
 }
