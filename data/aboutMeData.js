@@ -7,7 +7,7 @@ export const aboutMeData = [
   },
   {
     id: uuidv4(),
-    bio: "- En recherche d'une entreprise pour accompagner ma formation en alternance pour le titre de Concepteur Développeur d'applications, je reste néanmoins ouvert aux diverses offres que pourrait m'offrir le développement informatique dans sa grande largeur.",
+    bio: "- En recherche d'une entreprise pour m'accompagner dans mon prefectionnement de la programmation informatique, je reste néanmoins ouvert aux diverses offres que pourrait m'offrir l'informatique dans sa grande largeur.",
   },
   {
     id: uuidv4(),

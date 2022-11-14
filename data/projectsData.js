@@ -10,20 +10,25 @@ import {
 export const projectsData = [
   {
     id: 1,
-    title: "Site Web statique",
-    url: "https://worldwidegreg.github.io/SiteWebUdemy/",
-    category: "Html/Css",
-    img: "/images/siteudemy.jpg",
+    title: "CRUD App",
+    url: "https://www.youtube.com/watch?v=IT9wFFVYjbU",
+    category: "Full-Stack",
+    img: "/images/CRUDAPP.png",
     ProjectHeader: {
-      title: "Découverte du Web",
-      publishDate: "Janvier , 2022",
-      tags: "UI / Frontend / Backend",
+      title: "Application pour mobiles et navigateurs",
+      publishDate: "Novembre, 2022",
+      tags: "Full Stack",
     },
     ProjectImages: [
       {
         id: uuidv4(),
-        title: "HtmlCss",
-        img: "/images/csslogo.png",
+        title: "Next.js",
+        img: "/Next.svg",
+      },
+      {
+        id: uuidv4(),
+        title: "MongoDB",
+        img: "/MongoDB.svg",
       },
     ],
     ProjectInfo: {
@@ -31,28 +36,44 @@ export const projectsData = [
       CompanyInfo: [
         {
           id: uuidv4(),
-          title: "Nom du projet",
-          details: "Site Portfolio",
+          title: "Nom",
+          details: "Application CRUD - Team MANAGER",
         },
 
         {
           id: uuidv4(),
-          title: "Website",
-          details: "https://worldwidegreg.github.io/SiteWebUdemy/",
+          title: "Vidéo de présentation:",
+          details: "https://www.youtube.com/watch?v=IT9wFFVYjbU",
         },
       ],
-      ObjectivesHeading: "Objectifs",
-      ObjectivesDetails: "Apprendre les bases du web en HTML et CSS",
+      ObjectivesHeading: "Objectif",
+      ObjectivesDetails:
+        "Designer et développer un site web fullstack pour découvrir Typescript et progresser sur le Framework Next.JS qui compose le site sur lequel vous naviguez.",
       Technologies: [
         {
-          title: "Outils & Technologies",
-          techs: ["HTML", "CSS", "Django"],
+          title: "Outils et technologies",
+          techs: [
+            "Next.JS",
+            "React.JS",
+            "TypeScript",
+            "MongoDB",
+            "Github",
+            "TailwindCSS",
+          ],
         },
       ],
-      ProjectDetailsHeading: "",
-      ProjectDetails: [],
+      ProjectDetailsHeading: "Challenge",
+      ProjectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "Apprendre le langage Typescript via une application NextJS. Je me suis donné le défi de pouvoir développer l'application de base du WEB moderne, à savoir une application CRUD, dont les formulaires communiquent rapidement via une base de données Cloud. L'utilisation de Next.Js permettant de développer un Front-end ReactJS en assurant un Back-end en NodeJS m'ont permis de toucher des nouveaux concepts jusqu'ici inconnus. J'ai également pu perfectionner mon utilisation de TailwindCSS et MongoDB, mais avant tout Github en étant en contact avec un camarade sénior me permettant d'avancer via des 'code review' efficaces en utilisant les Pull Requests notamment.",
+        },
+      ],
+      SocialSharingHeading: "",
     },
   },
+
   {
     id: 2,
     title: "Scripting",
@@ -161,12 +182,12 @@ export const projectsData = [
           details: "https://worldwidegreg.github.io/MyPortfolio/",
         },
       ],
-      ObjectivesHeading: "Objective",
+      ObjectivesHeading: "Objectifs",
       ObjectivesDetails:
         "Designer et développer un site web pour me présenter et présenter mes projets et mes compétences.",
       Technologies: [
         {
-          title: "Tools & Technologies",
+          title: "Outils et technologies",
           techs: ["HTML", "CSS", "JavaScript", "Jquery", "Github"],
         },
       ],
@@ -214,6 +235,51 @@ export const projectsData = [
         },
       ],
       SocialSharingHeading: "",
+    },
+  },
+  {
+    id: 5,
+    title: "Site Web statique",
+    url: "https://worldwidegreg.github.io/SiteWebUdemy/",
+    category: "Html/Css",
+    img: "/images/siteudemy.jpg",
+    ProjectHeader: {
+      title: "Découverte du Web",
+      publishDate: "Janvier , 2022",
+      tags: "UI / Frontend / Backend",
+    },
+    ProjectImages: [
+      {
+        id: uuidv4(),
+        title: "HtmlCss",
+        img: "/images/csslogo.png",
+      },
+    ],
+    ProjectInfo: {
+      ClientHeading: "A propos du projet",
+      CompanyInfo: [
+        {
+          id: uuidv4(),
+          title: "Nom du projet",
+          details: "Site Portfolio",
+        },
+
+        {
+          id: uuidv4(),
+          title: "Website",
+          details: "https://worldwidegreg.github.io/SiteWebUdemy/",
+        },
+      ],
+      ObjectivesHeading: "Objectifs",
+      ObjectivesDetails: "Apprendre les bases du web en HTML et CSS",
+      Technologies: [
+        {
+          title: "Outils & Technologies",
+          techs: ["HTML", "CSS", "Django"],
+        },
+      ],
+      ProjectDetailsHeading: "",
+      ProjectDetails: [],
     },
   },
 ];
